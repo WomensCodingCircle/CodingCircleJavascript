@@ -1,6 +1,8 @@
 # CodingCircleJavascript
 Women's coding circle learns javascript
 
+These lessons are intended to be an easy way to learn JavaScript. Each lesson is a small chunk that ends with a simple project for you to apply the knowledge you just learned.
+
 ## Lesson 1 Printing
 In lesson one you will learn the many ways you can print in JavaScript, about variables and assignment, and a little bit about strings.
 **Project** A very simple fortune telling website (It only has 1 fortune...)

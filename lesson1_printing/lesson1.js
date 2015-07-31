@@ -86,14 +86,14 @@ var contractionString = "I've got a contraction";
 var combinedString = string1 + string2;
 var combined2 = numString + "56789";
 
-12) Fortune telling website
+12) Project: Fortune telling website
 // We will create a fortune telling website (don't let anyone know that it tells the same fortune to everyone)
 
 // Open fortune.html
 // Put a script tag in so that you can write your javascript.
 // Prompt the user for their name and store it in a variable called name
 // Replace the content in the h1 element with id of title with the "User name's fortune" making sure you use the name they entered
-// Replace the content in hte p element with id of fortune with a fortune of your choice. (bonus points if you use the user's name that they entered)
+// Replace the content in the p element with id of fortune with a fortune of your choice. (bonus points if you use the user's name that they entered)
 
 
 
