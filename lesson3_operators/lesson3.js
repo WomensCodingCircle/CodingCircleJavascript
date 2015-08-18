@@ -75,6 +75,10 @@ console.log(hourlyRate);
 hourlyRate *= 1.5;
 console.log(hourlyRate);
 
+// Fired :(
+hourlyRate -= hourlyRate;
+console.log(hourlyRate);
+
 
 7) Comparison operators
 // You have some more option in comparison operators with numbers
@@ -93,7 +97,7 @@ var deer_speed = 30;
 var my_speed = 5;
 var turtle_speed = 1;
 
-var faster_than_cheetah = my_speed > cheetah;
+var faster_than_cheetah = my_speed > cheetah_speed;
 console.log("Am I faster than a cheetah?", faster_than_cheetah);
 
 if (my_speed >= giraffe_speed) {
@@ -169,9 +173,9 @@ console.log(3 + '3');
 11) Project: TV Show Selector
 // We are going to create a page that helps users select which TV show to watch
 // Prompt the user for their birth year and store it in a variable called birth_year
-// Prompt returns a string, so parseInt to make it a number ** challenge, alert an error if parseInt fails
+// Prompt returns a string, so parseInt to make it a number **challenge, write an error to the document if parseInt fails
 // Subtract their birth year from current year and store the result in a variable called age.
-// Now we recommend the tvshow. 
+// Now we recommend the tv show. 
 // If age is less than 12, fill in the paragraph with id of 'tv' with "Let's watch Sesame Street!"
 // Else if age is greater than or equal to 12 and  less than 70 fill in the paragraph with "Let's watch Orange is the New Black."
 // Else fill in the paragraph with "Let's watch Matlock."
