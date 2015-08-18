@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>TV Recommender</title>
+</head>
+<body>
+<h1 id='title'>What TV show should we watch?</h1>
+<p id='tv'></p>
+<script type='text/javascript'>
+
+var birth_year = prompt("What year were you born in?");
+birth_year = parseInt(birth_year);
+if (! birth_year){
+	alert("Please enter a real year, thank you");
+}
+var current_year = 2015;
+var age = current_year - birth_year;
+var tv = document.getElementById('tv');
+if (age < 12){
+	tv.innerHTML = "Let's watch Sesame Street!";
+}
+else if (age >= 12 && age < 70) {
+	tv.innerHTML = "Let's watch Orange is the New Black.";
+}
+else {
+	tv.innerHTML = "Let's watch Matlock.";
+}
+</script>
+</body>
+</html>
