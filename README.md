@@ -10,3 +10,7 @@ In lesson one you will learn the many ways you can print in JavaScript, about va
 ## Lesson 2 Logic
 In lesson two you will learn about the boolean data type, if statements, and a little more about strings.
 **Project** We create a password protected website (with a secret!)
+
+## Lesson 3 Operators
+In lesson three you will learn about numbers, arithmetic, and comparison opertators 
+**Project** We create a website to recommend a TV show based on the users birth year
