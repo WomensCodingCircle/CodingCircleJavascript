@@ -5,7 +5,7 @@ These lessons are intended to be an easy way to learn JavaScript. Each lesson is
 
 ## Preperation
 You need to have Google Chrome installed. You should also have a text editor (I recommend [Sublime Text](http://www.sublimetext.com/)).
-Some knowledge of HTML is necessary, if you need a refresher, [W3Schools](http://www.w3schools.com/html/) has a good intro
+Some knowledge of HTML is necessary, if you need a refresher, [W3Schools](http://www.w3schools.com/html/) has a good intro.
 
 ## Lesson 1 Printing
 In lesson one you will learn the many ways you can print in JavaScript, about variables and assignment, and a little bit about strings.
