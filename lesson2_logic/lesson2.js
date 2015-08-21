@@ -51,7 +51,7 @@ else {
 	document.write("Better save up."); // will execute
 }
 
-// You can add more if cases by usin the else if keyword. Only one case will have the inner code run.
+// You can add more if cases by using the else if keyword. Only one case will have the inner code run.
 // Else condition will only execute if all if and else if conditions are false
 if (IAmWealthy) {
 	console.log("Alright!");
@@ -93,7 +93,7 @@ var quiet = 'shhh i am writing a very quiet sentance';
 console.log(quiet.toUpperCase());
 
 // trim removes whitespace from the beginning and end of a string
-var wide = "            \tnot much here             \n"
+var wide = "            \tnot much here             \n";
 console.log(wide.trim());
 
 // search returns where a string matches a pattern
@@ -156,7 +156,7 @@ if (!IAmSmart) {
 
 9) Project
 // We are going to create a secret page. You need a password to access it.
-// When the page loads promt the user for the password and save it in a variable
+// When the page loads prompt the user for the password and save it in a variable
 // Pick a password for your site and store in in a variable called site_password
 // If the user enters the password correctly fill in the paragraph with id of 'response' with a secret message
 // Else If the user enters the right password but with the wrong case i.e. TestPass instead of testpass, Fill in the paragraph with id of 'response' with "Close, check your cases."

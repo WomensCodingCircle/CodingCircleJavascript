@@ -44,6 +44,7 @@ you open with a slash-star and it goes to the star-slash
 8) Where to put javascript script tags and files
 // You can put javascript directly in an html file
 <script type='text/javascript'>
+var name='Charlotte';
 </script>
 
 // You can also put javascript in its own file and load it using the src attribute (just like css)
@@ -61,7 +62,7 @@ var myEl = document.getElementById('myid');
 console.log(myEl.innerHTML);
 
 // Setting content
-myEl.innerHTMl = name;
+myEl.innerHTML = name;
 
 10) Prompts
 // You can prompt a user for input and save what they wrote to a variable
@@ -69,7 +70,7 @@ var userInput = prompt("What are you doing?");
 console.log(userInput);
 
 // Now you can do something with that input
-Document.write(userInput);
+document.write(userInput);
 
 11) Strings and concatenation.
 // So far we have learned used strings but not learned about them
