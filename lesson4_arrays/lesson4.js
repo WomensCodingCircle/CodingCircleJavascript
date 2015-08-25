@@ -171,4 +171,17 @@ for (var i = 0; i < creatures.length; i++) {
 }
 
 10) Project
+// We are going to create a censor website. It will take a user's statement and censor out the 'bad word'. 
+// If a user is particualry filty, it will quit!
+// Prompt the user for a sentance and store it in a variable called sentance
+// pick a 'bad' word and store it in a variable called bad
+// pick a 'filthy' word and store it in a variable called filthy
+// split the users sentance into an array of words and store it in a variable called words.
+// * Hint look into the split method
+// Loop through each word of the users sentance
+// if the word is equal to the bad word write 'beep' to the document
+// else if the word is equal to the filthy word write "Wash your mouth!" to the document and break out of the loop (you don't want to dirty your program)
+// else, print the word to the document
+//
+
 
