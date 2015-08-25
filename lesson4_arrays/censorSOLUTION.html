@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Web Censor</title>
+</head>
+<body>
+<h1 id='title'>Free: Clean up your language.</h1>
+<script type='text/javascript'>
+// Prompt the user for a sentance and store it in a variable called sentance
+var sentance = prompt("Please give me a sentance to censor.");
+// pick a 'bad' word and store it in a variable called bad
+var bad = 'poppycock';
+// pick a 'filthy' word and store it in a variable called filthy
+var filthy = 'foobar';
+// split the users sentance into an array of words and store it in a variable called words.
+var words = sentance.split(" ");
+// * Hint look into the split method
+// Loop through each word of the users sentance
+while (words.length > 0) {
+	var word = words.shift();
+	// if the word is equal to the bad word write 'beep' to the document
+	if (word == bad){
+		document.write('beep ');
+	}
+	// else if the word is equal to the filthy word write "Wash your mouth!" to the document and break out of the loop (you don't want to dirty your program)
+	else if (word == filthy) {
+		document.write("Wash your mouth!")
+		break;
+	}
+	// else, print the word to the document
+	else {
+		document.write(word + " ");
+	}
+}
+
+// You can also use a for loop
+// for (i == 0; i < word.length; i++) {
+// 	var word = words[i];
+// 	// if the word is equal to the bad word write 'beep' to the document
+// 	if (word == bad){
+// 		document.write('beep ');
+// 	}
+// 	// else if the word is equal to the filthy word write "Wash your mouth!" to the document and break out of the loop (you don't want to dirty your program)
+// 	else if (word == filthy) {
+// 		document.write("Wash your mouth!")
+//		break;
+// 	}
+// 	// else, print the word to the document
+// 	else {
+// 		document.write(word + " ");
+// 	}
+// }
+// </script>
+</body>
+</html>
