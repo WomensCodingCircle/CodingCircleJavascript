@@ -18,3 +18,7 @@ In lesson two you will learn about the boolean data type, if statements, and a l
 ## Lesson 3 Operators
 In lesson three you will learn about numbers, arithmetic, and comparison opertators 
 **Project** We create a website to recommend a TV show based on the users birth year
+
+## Lesson 4 Arrays and Loops
+In this lesson you will learn about arrays, for loops, and while loops
+**Project** We create a censor website that checks for bad words
