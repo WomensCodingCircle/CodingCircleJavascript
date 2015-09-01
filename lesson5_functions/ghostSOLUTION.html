@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Haunted Website</title>
+</head>
+<body>
+<h1 id='title'>The scariest page on the internet.</h1>
+<p>Watch out for ghosts.</p>
+<script type='text/javascript'>
+function makeImage(name, src) {
+	document.write("<p id='" + name + "'><img src='" + src + "'/></p>");
+}
+function guessName() {
+	var nameGuess = prompt("If you can guess my name, I'll disappear into the aether.");
+	if (nameGuess == 'Natasha'){
+		var el = document.getElementById("Natasha");
+		el.innerHTML = '';
+	}
+}
+setTimeout(makeImage, 4000, 'Natasha', "ghost.jpg");
+setTimeout(guessName, 4500);
+
+</script>
+</body>
+</html>

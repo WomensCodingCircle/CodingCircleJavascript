@@ -13,7 +13,7 @@ console.log(creatures);
 // You can fill your array with numbers
 var counting = [0, 1, 2, 3, 4, 5];
 // Or you can mix types
-var randoms = [True, 1, 'abcde', 3.14];
+var randoms = [true, 1, 'abcde', 3.14];
 //Or even empty
 var empty = [];
 
@@ -110,7 +110,7 @@ for (var i = 0; i < 10; i++) {
 
 // a) a for loop sets the variable first (1) , 
 // b) then checks the condition (2). 
-// c) Checks if condition is tru
+// c) Checks if condition is true
 // d) it runs the code. 
 // e) Then it runs (3) 
 // f) and checks the condition again (if true go to d, if false go to g)
@@ -157,7 +157,9 @@ while (count < 5) {
 	if (count == 3) {
 		break;
 	}
+	console.log("Dragon");
 }
+
 
 // You can skip that iteration of a loop with the continue statement
 // This will skip the chunk of code after the continue statement and just go to the next iteration of the loop
