@@ -22,3 +22,7 @@ In lesson three you will learn about numbers, arithmetic, and comparison opertat
 ## Lesson 4 Arrays and Loops
 In this lesson you will learn about arrays, for loops, and while loops
 **Project** We create a censor website that checks for bad words
+
+## Lesson 5 Functions
+In this lesson you will learn about writing and using function
+**Project** A haunted website, watch out for ghosts
