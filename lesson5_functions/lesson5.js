@@ -81,11 +81,12 @@ console.log("How about rocks, are they precious? ", isPrecious('ROCK'));
 // This will write a paragraph element with an id and some content 
 // Take that document.write
 function makeParagraph(id, content) {
-	document.write("<p id='" + id + "'>" + content + "</p>" );
+	var paraString = "<p id='" + id + "'>" + content + "</p>";
+	document.write(paraString);
 }
 makeParagraph("gemstones", "Diamond, Ruby, Sapphire, Emerald");
-// Not only does it make a nice looking paragraph with new lines and spacing
-// We can access its content using the id
+// Not only does it make a nice looking paragraph with new lines and spacing,
+// we can access its content using the id
 var contentOfGemstones = document.getElementById('gemstones');
 console.log(contentOfGemstones);
 
@@ -122,7 +123,7 @@ callOtherFunction(myFirstFunction);
 //
 // It usually means you forgot to call your function with parenthesis. 
 
-7) Timeouts
+7) setTimeout
 // Javascript has a function that will run some code after so many milliseconds
 // setTimeout takes as parameters the function to run, and the number of milliseconds to wait to run that function
 // 1000 milliseconds = 1 second
@@ -138,7 +139,7 @@ setTimeout(makeParagraph, 1000, 'snake', 'Hssss!');
 // Call setTimeout with an interval of 4 seconds to call makeImage with and id of the ghost's name and a src of ghost.jpg
 // ** Challenge **
 // Let the user guess the ghost's name to make her disappear. 
-// Write a function that prompts the user to guess the ghost's name, and if they get it write, selects the paragraph with the id of the ghost's name and sets the innerHTML to ''
+// Write a function that prompts the user to guess the ghost's name, and if they get it right, selects the paragraph with the id of the ghost's name and sets the innerHTML to ''
 // Call setTimeout with this function after an interval of 4.5 seconds
 
 
