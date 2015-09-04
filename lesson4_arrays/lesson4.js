@@ -68,7 +68,7 @@ var not_actually_mythical = creatures.pop();
 var setting_this_one_free = creatures.shift();
 
 // Unshift adds an element to the beginning
-creatures.unshift("Kappa");
+creatures.unshift("Mermaid");
 
 6) Slice
 // You can access a subset of the array using slice
@@ -174,7 +174,7 @@ for (var i = 0; i < creatures.length; i++) {
 
 10) Project
 // We are going to create a censor website. It will take a user's statement and censor out the 'bad word'. 
-// If a user is particualry filty, it will quit!
+// If a user enters a particualry filty, it will quit!
 // Prompt the user for a sentance and store it in a variable called sentance
 // pick a 'bad' word and store it in a variable called bad
 // pick a 'filthy' word and store it in a variable called filthy

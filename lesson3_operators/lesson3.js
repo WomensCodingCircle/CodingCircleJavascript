@@ -111,7 +111,7 @@ if (cat_speed == deer_speed) {
 	console.log("This will be an interesting race");
 }
 else {
-	console.log("I'm probably going to be on the deer");
+	console.log("I'm probably going to bet on the deer");
 }
 
 if ((turtle_speed > my_speed )|| (turtle_speed > cat_speed) || (turtle_speed > cheetah_speed)) {
