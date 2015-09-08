@@ -20,9 +20,13 @@ In lesson three you will learn about numbers, arithmetic, and comparison opertat
 **Project** We create a website to recommend a TV show based on the users birth year
 
 ## Lesson 4 Arrays and Loops
-In this lesson you will learn about arrays, for loops, and while loops
+In lesson four you will learn about arrays, for loops, and while loops
 **Project** We create a censor website that checks for bad words
 
 ## Lesson 5 Functions
-In this lesson you will learn about writing and using function
+In lesson five you will learn about writing and using function
 **Project** A haunted website, watch out for ghosts
+
+## Lesson 6 Objects
+In lesson six you will learn about objects and their properties and methods.
+**Project** A website that creates an acrostic poem with the user's name.
