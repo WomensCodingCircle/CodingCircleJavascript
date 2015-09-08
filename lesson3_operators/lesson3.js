@@ -41,8 +41,8 @@ console.log(numberOfPuppies);
 numberOfPuppies--;
 console.log(numberOfPuppies);
 
-// Modulus takes the remander of division
-var remander = 5 % 3;  // 5 / 3 = 1 with a remander of 2.  5 % 3 = 2
+// Modulus takes the remainder of division
+var remainder = 5 % 3;  // 5 / 3 = 1 with a remainder of 2.  5 % 3 = 2
 
 5) Precedence and parentheses
 // You can chain multiple arithmetic operators together. 
