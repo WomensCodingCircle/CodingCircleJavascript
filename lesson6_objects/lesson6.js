@@ -8,7 +8,7 @@ Menu -> more tools -> javascript console
 // An object is created using curly braces {} and key : value pairs separated by a colon and commas ,
 // var obj = {
 //	 key: value,
-//	 key2: value2
+//	 key2: value2,
 // };
 
 var venus = {
@@ -146,16 +146,16 @@ document.write("Saturn is a " + saturn.type + " that is colored " + saturn.color
 // T - Tall
 //
 // Prompt the user for their name and store it in a variable called name
-// convert name to uppercase and store it in a variable called capital_name
+// convert name to uppercase and store it in a variable called name_caps
 // Create an object called acrostic that has each uppercase letter of the alphabet as keys and 
 //   a adjective staring with that letter as the value.
 // You can use this site to help you think of adjectives http://www.enchantedlearning.com/wordlist/adjectives.shtml
-// split capital_name into an array of its letters and store in a variable called name_letters *hint use strings split method
+// split name_caps into an array of its letters and store in a variable called name_letters *hint use strings split method
 // for each letter in name_letters :
 //      get the adjective corresponding to the letter from the acrostic dictionary
 //      Write to the document <p>letter: adjective</p>  // make sure you use the paragraphs so that the name will be vertical
 // ** Challenge
-// make a method in acrostic called generate that takes a name as a parameter, and use this to generate the acrostic instead
+// make a method in acrostic called generate that takes a list of characters as a parameter, and use this to generate the acrostic instead
 // just make sure to call acrostic.generate(name_letters);
 // 
 
