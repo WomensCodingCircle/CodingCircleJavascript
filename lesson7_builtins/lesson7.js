@@ -27,8 +27,12 @@ console.log(circumferance);
 // Math.min returns the minimum of all of its parameters
 var min_val = Math.min(10,4,4,2,8);
 console.log("The minimum is " + min_val);
-// Notice that it doesn't take a list
+// Notice that it doesn't take a array
 Math.min([1,2,3,4]); //NaN
+// NaN
+// NaN stands for not a number. It is used when you expect a method to
+// return a number but the inputs were bad so it cannot calcualte the number
+
 
 // TRY IT
 // Find the minimum of the following values 12,112,4584,33,456,1209,4467,4,6,-2,4263,68954,54454.
@@ -155,16 +159,12 @@ else {
 // Create arrays with 4 elements of your choice in each of the following categories (some good some bad)
 //    person_to_marry, car, salary, date_of_wedding
 // 	  (date_of_wedding should be populated with date objects)
-// Select a random Element from each array
+// Select a random element from each array
 // ** Challenge, write a function that selects a random element of any array
 // Write to the document the category name and the selected element for each of the 5 categories
 // <h1>Category Name</h1> <p>selected element</p>
 // Use the toDateString to print out the date of wedding.
 // If a user wants to play again, they can refresh the page
-
-
-
-
 
 
 
