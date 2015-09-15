@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>MASH</title>
+</head>
+<body>
+<h1 id='title'>Let's play MASH!</h1>
+<script type='text/javascript'>
+// Confirm that the user wants to play MASH.
+var wants_to_play = confirm("Would you like to play MASH?");
+// If they don't want to play, write to the document "You're no fun!" and don't do run the rest of the program
+if (! wants_to_play) {
+	document.write("You're no fun!");
+}
+else{
+	// Create an array called mash that has the following elements Mansion, Apartment, Shack, House
+	// Crate arrays with 4 elements of your choice in each of the following categories (some good some bad)
+	//    person_to_marry, car, salary, date_of_wedding
+	// 	  (date_of_wedding should be populated with date objects)
+	var mash = ['Mansion', 'Apartment', 'Shack', 'House'];
+	var person_to_marry = ['Donald Trump', 'Chris Hemsworth','Mystery Ghost', 'John Snow'];
+	var car = ['Lotus', 'Chevy Aveo', 'Tricycle', 'Honda Civic'];
+	var salary = [1000000, 15000, 5, 65000];
+	var date_of_wedding = [new Date('2020-05-15'), new Date('2016-06-04'), new Date('2085-11-17'), new Date('1901-09-15')];
+
+	// Select a random Element from each array
+	var mash_idx = Math.floor(Math.random() * mash.length);
+	var person_to_marry_idx = Math.floor(Math.random() * person_to_marry.length);
+	var car_idx = Math.floor(Math.random() * car.length);
+	var salary_idx = Math.floor(Math.random() * salary.length);
+	var date_of_wedding_idx = Math.floor(Math.random() * date_of_wedding.length);
+
+	var mash_el = mash[mash_idx];
+	var person_to_marry_el = person_to_marry[person_to_marry_idx];
+	var car_el = car[car_idx];
+	var salary_el = salary[salary_idx];
+	var date_of_wedding_el = date_of_wedding[date_of_wedding_idx];
+
+	// Write to the document the category name and the selected element for each of the 5 categories
+	// <h1>Category Name</h1> <p>selected element</p>
+	document.write("<h1>MASH</h1>");
+	document.write("<p>" + mash_el + "</p>");
+	document.write("<h1>Marry</h1>");
+	document.write("<p>" + person_to_marry_el + "</p>");
+	document.write("<h1>Car</h1>");
+	document.write("<p>" + car_el + "</p>");
+	document.write("<h1>Salary</h1>");
+	document.write("<p>" + salary_el + "</p>");
+	document.write("<h1>Date of Wedding</h1>");
+	document.write("<p>" + date_of_wedding_el.toDateString() + "</p>");
+}
+
+// Challenge
+function getRandElOfArray(list){
+	var idx = Math.floor(Math.random() * list.length);
+	return list[idx];
+}
+
+
+</script>
+</body>
+</html>
