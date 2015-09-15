@@ -30,3 +30,7 @@ In lesson five you will learn about writing and using function
 ## Lesson 6 Objects
 In lesson six you will learn about objects and their properties and methods.
 **Project** A website that creates an acrostic poem with the user's name.
+
+## Lesson 7 Builtins
+In lesson seven you will learn about the built in objects Date and Math
+**Project** A website that will let a user play MASH
