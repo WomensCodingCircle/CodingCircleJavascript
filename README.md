@@ -34,3 +34,7 @@ In lesson six you will learn about objects and their properties and methods.
 ## Lesson 7 Builtins
 In lesson seven you will learn about the built in objects Date and Math
 **Project** A website that will let a user play MASH
+
+## Lesson 8 Project
+In lesson eigth you will apply what you know with a longer project
+**Project** A website that will let a user play Hangwoman
