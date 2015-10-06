@@ -190,6 +190,7 @@ window.setInterval(switchClass, 500);
 
 13) PROJECT
 // We are going to create a constantly changing mosaic picture
+// Load JQuery onto the page
 // Create a variable named colors and give it an array of 8 colors in string format
 //    (you can use https://en.wikipedia.org/wiki/Web_colors to get a list of named colors)
 //    if you are lazy, you can use ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'purple', 'black'] 
