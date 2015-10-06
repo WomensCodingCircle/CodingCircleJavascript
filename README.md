@@ -38,3 +38,7 @@ In lesson seven you will learn about the built in objects Date and Math
 ## Lesson 8 Project
 In lesson eigth you will apply what you know with a longer project
 **Project** A website that will let a user play Hangwoman
+
+## Lesson 9 JQuery 1
+In lesson nine you will learn about jquery's selectors and DOM manipulation
+**Project** A website with a hypnotizing ever changing mosiac
