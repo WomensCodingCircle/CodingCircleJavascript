@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Mosaic</title>
+<style>
+.tile {
+	float:left;
+	min-width: 25px;
+	min-height: 25px;
+	border: 1px solid black;
+	background: white;
+	margin:0px;
+	border-collapse:collapse;
+}
+</style>
+</head>
+<body>
+<div id='canvas'></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type='text/javascript'>
+
+function changecolor(){
+	var class_index = Math.floor(Math.random() * classes.length);
+	var r_class = classes[class_index];
+	var color_index = Math.floor(Math.random() * colors.length);
+	var r_color = colors[color_index];
+	var c = $('.' + r_class);
+	c.css('background', r_color);
+}
+var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'purple', 'black'];
+var classes = ['a', 'b', 'c', 'd', 'e', 'f'];
+for (var i = 0; i<5000; i++){
+	var class_index = Math.floor(Math.random() * classes.length);
+	var random_class = classes[class_index];
+	var canvas = $('#canvas');
+	canvas.append("<div class='tile " + random_class +"'></div>");
+}
+
+setInterval(changecolor, 300);
+</script>
+</body>
+</html>

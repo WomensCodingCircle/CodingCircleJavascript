@@ -7,15 +7,24 @@ Menu -> more tools -> javascript console
 // All statements should end with a semicolon
 alert("Hello world!");
 
+// TRY IT
+// Alert your name
+
 4) console.log
 // Forget everything you learned about alert. Never use alerts!
 console.log("Hello world");
 // You can log mutiple things, separate them by commas.
 console.log("Only I will ever see this", "my secret logs ;)");
 
+// TRY IT
+// log "Here I am!" to the console
+
 5) document.write
 //appends to page
 document.write("Hello coding circle!");
+
+// TRY IT
+// write "I'm on the page" to the document
 
 6) Variables/Assignment
 // You need to declare variables in Javascript
@@ -31,6 +40,9 @@ var cakePrice = 4.50;
 // You can use the variable in the same place you would use the value assigned to the variable
 console.log(name);
 console.log(numberOfPuppies, ' puppies. Awwwww!'); 
+
+// TRY IT
+// assign the value of "mermaid" to a variable named creature
 
 7) Comments
 // A single line comment uses the double backslash '//'
@@ -64,6 +76,9 @@ console.log(myEl.innerHTML);
 // Setting content
 myEl.innerHTML = name;
 
+// TRY IT
+// set myEl's html to be "Lots of puppies!"
+
 10) Prompts
 // You can prompt a user for input and save what they wrote to a variable
 var userInput = prompt("What are you doing?");
@@ -71,6 +86,9 @@ console.log(userInput);
 
 // Now you can do something with that input
 document.write(userInput);
+
+// TRY IT
+// Propmt the user for their name
 
 11) Strings and concatenation.
 // So far we have learned used strings but not learned about them
@@ -86,6 +104,9 @@ var contractionString = "I've got a contraction";
 // You can combine two strings into one using the + operator
 var combinedString = string1 + string2;
 var combined2 = numString + "56789";
+
+// TRY IT
+// combine numString and charString
 
 12) Project: Fortune telling website
 // We will create a fortune telling website (don't let anyone know that it tells the same fortune to everyone)

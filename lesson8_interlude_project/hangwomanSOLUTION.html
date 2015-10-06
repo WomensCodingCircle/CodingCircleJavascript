@@ -1,9 +1,9 @@
 <html>
 <head>
-<title>Hangman</title>
+<title>Hangwoman</title>
 </head>
 <body>
-<h1 id='title'>Lets play hangman.</h1>
+<h1 id='title'>Lets play hangwoman.</h1>
 <p><pre id='gallows'></pre></p>
 <p id='word'></p>
 <p id='result'></p>
@@ -29,6 +29,7 @@ function letterInWord(l, word) {
 
 // Create an array called word_bank that contains several words or phrases you can play hangwoman with.
 var word_bank = ['Ada Lovelace', 'Grace Hopper', 'Adele Goldstine', 'Radia Perlman', 'Margaret Hamilton'];
+
 // Create an array called woman that contains an text representation of the woman at every stage of hangwoman
 var woman = [ 
 " |---|<br>\
@@ -117,6 +118,7 @@ while (num_wrong_guesses < woman.length) {
 		num_wrong_guesses += 1;
 	}
 	guessed_letters.push(guess);
+	console.log(num_wrong_guesses);
 }
 document.getElementById('word').innerHTML = word_choice;
 document.getElementById('result').innerHTML = result;
