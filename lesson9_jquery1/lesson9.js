@@ -105,7 +105,7 @@ var second_html = second.html();
 console.log(second_html);
 // To set the value and tags we give the text function a parameter with the value 
 // we want the tag to have
-// element.text('new value');
+// element.html('new value');
 second.html("<h1>If I see one more lorem ipsum, I REALLY will PUKE!</h1>");
 
 // TRY IT
@@ -182,11 +182,10 @@ function switchClass(){
 	var paragraphs = $('p');
 	// toggle their class with example class
 	paragraphs.toggleClass('exampleclass');
-
 }
 
 // toggles classes every half second
-window.setInterval(switchClass, 500);
+setInterval(switchClass, 500);
 
 13) PROJECT
 // We are going to create a constantly changing mosaic picture
@@ -208,7 +207,7 @@ window.setInterval(switchClass, 500);
 // select a random class from the classes array and assign it to the variable r_class
 // select a random color from the color array and assign it to the variable r_color
 // select all the elements with the class of the r_class variable and assign them to the c variable using jquery
-// set c's css attribut background-color to be the value of r_color using jquery's css method.
+// set c's css attribute background-color to be the value of r_color using jquery's css method.
 //
 // run the function changecolor every 300 milliseconds using setInterval
 
