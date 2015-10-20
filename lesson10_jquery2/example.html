@@ -2,21 +2,51 @@
 <head>
 <title>Lesson 10 Example</title>
 <style>
+.pretty {
+	background: lavender;
+	color:midnightblue;
+	}
+.scary {
+	background: darkgray;
+	color: white;
+}
 
 </style>
 
 </head>
 <body>
-<p>
-</p>
-<p>
-</p>
-<p>
-</p>
-<p>
-</p>
-<p>
-</p>
+<div id='creatures'>
+	<div id='mermaid'>
+		<h2>Mermaid</h2>
+		<p>
+		Half fish half person, she sings a siren song.
+		</p>
+	</div>
+	<div id='mummy'>
+		<h2>Mummy</h2>
+		<p>
+		Don't wake him up or you'll be sorry!
+		</p>
+	</div>
+	<div id='ghost'>
+		<h2>Ghost</h2>
+		<p>
+		She is see-through and very floaty.
+		</p>
+	</div>
+</div>
+<form id='creature_form'>
+<hr>
+<formset>
+<label for='name'>Creature Name </label><input type='text' id='name'>
+<br>
+<br>
+<label for='name'>Creature Description </label><input type='textarea' id='description'>
+<br>
+<br>
+<input type='button' id='creature_button' value='submit'>
+</formset>
+</form>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 </body>
