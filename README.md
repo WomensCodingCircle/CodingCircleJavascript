@@ -42,3 +42,7 @@ In lesson eigth you will apply what you know with a longer project
 ## Lesson 9 JQuery 1
 In lesson nine you will learn about jquery's selectors and DOM manipulation
 **Project** A website with a hypnotizing ever changing mosiac
+
+## Lesson 10 JQuery 2
+In lesson ten you will learn about jquery method chaining, callback functions, events, and attributes
+**Project** A restraunt website
