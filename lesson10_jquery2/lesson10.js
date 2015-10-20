@@ -22,9 +22,12 @@ $('#mermaid')
 	.addClass("pretty")
 	.append("She is very beautify and deadly.");
 
+// TRY IT
+// Select and hide the ghost element all in one line
+
 4) Callback functions
 // Many of JQuery's methods can accept as a parameter a call back function to run when the method is complete
-// hide() can accept a callback function as a parameter (This is a great place to use anyonmous functions)
+// show() and hide() can accept a callback function as a parameter (This is a great place to use anyonmous functions)
 // Then when hide is finished, the callback function runs
 
 
@@ -40,6 +43,9 @@ $('#mummy').hide(afterHide);
 $('#mummy').show(function(){
 	$('body').prepend("Oh, you found it after all.<br>");
 });
+
+// TRY IT
+// Call show on the ghost element and use a call back function to log "Boo" to the console
 
 5) Events
 // Javascript recognizes several event that occur when you are interacting with a webpage in your browser
@@ -101,6 +107,7 @@ $('#ghost').mouseover(function(theEvent){
 
 // This 
 // this refers to the element that fired the event
+// It is automatically available, you don't have to name it in the parameters to the function
 $('#mermaid').mouseover(function(){
 	console.log(this);
 });
@@ -109,6 +116,9 @@ $('#mermaid').mouseover(function(){
 $('#mermaid').mouseover(function(){
 	$(this).hide();
 });
+
+// TRY IT
+// log 'clicked on name' to the console when you click on the element with id of name
 
 6) Forms
 // You can use jquery to intereact with HTML forms.
@@ -141,6 +151,9 @@ $('#creature_button').attr('type');
 
 // Changes a button to a text box. 
 $('#creature_button').attr('type', 'text');
+
+// TRY IT
+// Get the value of the element with id of description (type something in that text box first)
 
 7) Putting it all together
 // We will use JQuery and events to make the form add creatures to the creature list
