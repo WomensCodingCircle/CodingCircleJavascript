@@ -114,8 +114,8 @@ document.cookie = 'expires=Mon, 2 Nov 2015 01:00:00 UTC';
 // Create a variable called click_count and set it equal to 0
 // Store the value of the window's innerWidth to a variable called window_width
 // Calculate the offset for the box to center it by taking half the window_width - half the width of the box
-// and store it in a variable called margin-val
-// Set the box's margin-left css property to be equal to margin-val
+// and store it in a variable called margin_val
+// Set the box's margin-left css property to be equal to margin_val
 // Set the box to perform a function called boxClick, when clicked
 
 // Write the boxClick function to 

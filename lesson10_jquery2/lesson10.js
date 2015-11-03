@@ -5,6 +5,7 @@ Menu -> more tools -> javascript console
 
 3) Chaining
 // JQuery methods can be chained together
+
 $('#mermaid').hide()
 // OR
 $('#mermaid').show().addClass("pretty").append("She is very beautify and deadly.");
@@ -192,7 +193,7 @@ $('#creature_button').on('click', function(){
 // Write a click handler if a user clicks on anything with the class of item
 //   The function for the item click handler should get the id of the element clicked and save to variable id
 //          (use this, transform into jquery element and get the value of the attribute id)
-//   Append the value of id to the element with id of order and then append a break
+//   Append the value of id to the element with id of order and then append a break <br>
 
 
 // Now write a click handler if a user clicks on menu_submit
