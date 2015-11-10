@@ -46,3 +46,11 @@ In lesson nine you will learn about jquery's selectors and DOM manipulation
 ## Lesson 10 JQuery 2
 In lesson ten you will learn about jquery method chaining, callback functions, events, and attributes
 **Project** A restraunt website
+
+## Lesson 11 BOM
+In lesson eleven you will learn about the browser object model (BOM) and how to get data about a user's computer and setup using this.
+**Project** A clicking game that remembers your score
+
+## Lesson 12 Javascript Libraries
+In lesson twelve you will learn how to find and use Javascript libraries to increase your coding efficency and add cool features to your page.
+**Project** A chart showing how much Javascript you learned over the past 12 lessons
